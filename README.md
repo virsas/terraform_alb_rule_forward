@@ -1,6 +1,6 @@
-# terraform_alb
+# terraform_alb_rule_forward
 
-Terraform module to create AWS loadbalancer
+Terraform module to create AWS loadbalancer rule to forward traffic to target group
 
 ##  Dependencies
 
