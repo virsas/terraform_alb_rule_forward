@@ -3,3 +3,4 @@ variable "listener" { default = "" }
 variable "target" { default = "" }
 variable "path" { default = "" }
 variable "host" { default = "" }
+variable "priority" { default = 0 }

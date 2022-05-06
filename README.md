@@ -29,5 +29,6 @@ module "alb_rl_fw_example_2_api" {
   target = module.alb_tg_api.arn
   host = "api.example.org"
   path = "/*"
+  priority = 1
 }
 ```
