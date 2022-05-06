@@ -31,7 +31,3 @@ module "alb_rl_fw_example_2_api" {
   path = "/*"
 }
 ```
-
-## Outputs
-
-- arn
