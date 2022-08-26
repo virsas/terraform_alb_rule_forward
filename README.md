@@ -24,7 +24,7 @@ Terraform module to create AWS loadbalancer rule to forward traffic to target gr
 # Module
 ##############
 module "alb_rl_fw_example_2_api" {
-  source = "github.com/virsas/terraform_alb_rule_forward"
+  source = "git::https://github.com/virsas/terraform_alb_rule_forward.git?ref=v1.0.0"
   listener = module.alb_listener_main_https.arn
   target = module.alb_tg_api.arn
   host = "api.example.org"
